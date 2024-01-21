@@ -1,0 +1,24 @@
+.h2 {
+    background-color: bisque;
+    display: inline-block;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 0.1%;
+    padding-bottom: 0.1%;
+    margin-bottom: 10px;
+}
+.list_style_type {
+    list-style-type: square;
+}
+.list_style_type_2 {
+    list-style-type: circle;
+}
+.list_style_type_3 {
+    list-style-type: disc;
+}
+.list_style_type_4 {
+    list-style-type: disclosure-open;
+}
+.list_style_type_5 {
+    list-style-type: disclosure-closed;
+}
