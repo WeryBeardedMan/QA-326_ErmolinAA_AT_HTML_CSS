@@ -1,0 +1,25 @@
+body {
+    background: url(HW_1_img.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+.container {
+    margin-bottom: 15px;
+}
+.con_1 {
+    background-color: #FFC073;
+    display: inline-block;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 0.1%;
+    padding-bottom: 0.1%;
+    margin-bottom: 10px;
+}
+.con_2 {
+    background-color: #97bfd6;
+    color: #32493f;
+    display: inline-block;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 0.1%;
+    padding-bottom: 0.1%;
+}
