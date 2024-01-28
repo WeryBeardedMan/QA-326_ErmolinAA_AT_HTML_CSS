@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Подключение файла стилей -->
+    <link rel="stylesheet" href="HW_4.css" />
+    <title>Данные для заказа</title>
+  </head>
+  <body>
+    <div class="container"> <!-- content - содержимое формы -->
+      <div class="content">
+        <div>
+          <div class="topic-text">Заполните форму для заказа</div> <!-- Заголовок для формы -->
+          <p> <!-- Дополнительный текст -->
+            Заполните поля формы и нажмите "Отправить", чтобы мы могли обработать ваш заказ.
+          </p>
+          <form action="#"> <!-- Форма заказа -->
+            <div class="input_box"> <!-- Каждый input для выравнивания вкладываем в блок input-box -->
+                <input type="text" name="Name" placeholder="Ф.И.О." required>
+            </div>
+            <div class="input_box">
+                <input type="text" name="City" placeholder="Город" required>
+            </div>
+            <div class="input_box">
+                <input type="email" name="Email" placeholder="your@email.com">
+            </div>
+            <div class="input_box">
+                <input type="tel" name="Pnone_N" placeholder="+7(999)999-99-99" required>
+            </div>
+            <div class="Delivery_method_style" id="delivery_method">
+                <label for="delivery_method">Способ доставки</label>
+                    <select name="delivery_method">
+                        <option>-- Выберите способ доставки --</option>
+                        <option>Самовывоз</option>
+                        <option>Курьерская доставка</option>
+                        <option>Пункт выдачи</option>
+                        <option>Постамат</option>
+                    </select>
+            </div>
+            <div class="Payment_method_style" id="Payment_method">
+                <label for="Payment_method">Способ оплаты</label>
+                    <input type="radio" name="Payment_method">
+                    Безналичный
+                    <input type="radio" name="Payment_method">
+                    Наличный
+            </div>
+            <div class="input_box message_box">
+                <textarea type="test" name="message_box" placeholder="Сообщение"></textarea>
+            </div>
+            <div class="button">
+                <input name="post" type="submit" value="Отправить">
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html
